@@ -83,36 +83,45 @@ html {
 }
 
 /*fonts*/
-body h1 {
+main {
+  padding: 20px;
+}
+main h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 1.5rem;
 }
-body h2 {
+main h2 {
   font-family: "Poppins";
   font-size: 1.5rem;
   font-weight: 200;
 }
-body h4 {
+main h4 {
   font-family: "Poppins";
   font-size: 1rem;
   font-weight: 400;
   line-height: 3vh;
 }
-body h1, body h2, body h4 {
+main h1, main h2, main h4 {
   text-align: center;
   color: hsl(234, 12%, 34%);
 }
-body h3 {
+main h3 {
   font-family: "Poppins";
   font-size: 1.1rem;
   color: hsl(234, 12%, 34%);
 }
-body p {
+main p {
   font-family: "Poppins";
   font-weight: 400;
   color: hsl(212, 6%, 44%);
   font-size: 0.9rem;
+}
+
+.container1 {
+  max-width: 100px;
+  max-height: 70px;
+  background-color: hsl(0, 0%, 100%);
 }
 
 .attribution {
