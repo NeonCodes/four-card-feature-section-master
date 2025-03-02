@@ -85,33 +85,33 @@ html {
 }
 
 /*fonts*/
-body h1 {
+body h1, header h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 1.5rem;
 }
-body h2 {
+body h2, header h2 {
   font-family: "Poppins";
   font-size: 1.5rem;
   font-weight: 200;
 }
-body h4 {
+body .description, header .description {
   font-family: "Poppins";
   font-size: 1rem;
   font-weight: 400;
   line-height: 3vh;
   padding-bottom: 50px;
 }
-body h1, body h2, body h4 {
+body h1, body h2, body .description, header h1, header h2, header .description {
   text-align: center;
   color: hsl(234, 12%, 34%);
 }
-body h3 {
+body h3, header h3 {
   font-family: "Poppins";
   font-size: 1.1rem;
   color: hsl(234, 12%, 34%);
 }
-body p {
+body p, header p {
   font-family: "Poppins";
   font-weight: 400;
   color: hsl(212, 6%, 44%);
@@ -211,6 +211,12 @@ main .container4 .calculator {
   }
   main {
     display: grid;
+    justify-content: center;
+    row-gap: 20px;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+    padding-top: 15px;
+    padding-bottom: 40px;
   }
   .container1 {
     grid-row: 1/3;
