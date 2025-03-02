@@ -75,6 +75,8 @@ textarea:not([rows]) {
 
 /************************************/
 /*font for the body*/
+/*base for the container styling*/
+/*svg placement*/
 /*Colors*/
 /*Primary*/
 /*Neutral*/
@@ -83,47 +85,146 @@ html {
 }
 
 /*fonts*/
-main {
-  padding: 20px;
-}
-main h1 {
+body h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 1.5rem;
 }
-main h2 {
+body h2 {
   font-family: "Poppins";
   font-size: 1.5rem;
   font-weight: 200;
 }
-main h4 {
+body h4 {
   font-family: "Poppins";
   font-size: 1rem;
   font-weight: 400;
   line-height: 3vh;
+  padding-bottom: 50px;
 }
-main h1, main h2, main h4 {
+body h1, body h2, body h4 {
   text-align: center;
   color: hsl(234, 12%, 34%);
 }
-main h3 {
+body h3 {
   font-family: "Poppins";
   font-size: 1.1rem;
   color: hsl(234, 12%, 34%);
 }
-main p {
+body p {
   font-family: "Poppins";
   font-weight: 400;
   color: hsl(212, 6%, 44%);
   font-size: 0.9rem;
 }
 
-.container1 {
-  max-width: 100px;
-  max-height: 70px;
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+main .container1 {
+  max-width: 320px;
+  max-height: 320px;
+  margin: 2px;
+  padding-top: 15px;
+  padding-bottom: 40px;
+  padding-left: 22px;
+  padding-right: 22px;
+  border-radius: 5px;
+  box-shadow: 0 1rem 1rem 0 rgba(12, 75, 170, 0.1);
   background-color: hsl(0, 0%, 100%);
+  border-top: solid 0.25rem rgba(3, 167, 173, 0.598);
+}
+main .container1 .supervisor {
+  display: flex;
+  flex-direction: column-reverse;
+  align-self: flex-end;
+  justify-self: flex-end;
+  padding-top: 40px;
+}
+main .container2 {
+  max-width: 320px;
+  max-height: 320px;
+  margin: 2px;
+  padding-top: 15px;
+  padding-bottom: 40px;
+  padding-left: 22px;
+  padding-right: 22px;
+  border-radius: 5px;
+  box-shadow: 0 1rem 1rem 0 rgba(12, 75, 170, 0.1);
+  background-color: hsl(0, 0%, 100%);
+  border-top: solid 0.25rem rgba(208, 19, 28, 0.833);
+}
+main .container2 .team-builder {
+  display: flex;
+  flex-direction: column-reverse;
+  align-self: flex-end;
+  justify-self: flex-end;
+  padding-top: 40px;
+}
+main .container3 {
+  max-width: 320px;
+  max-height: 320px;
+  margin: 2px;
+  padding-top: 15px;
+  padding-bottom: 40px;
+  padding-left: 22px;
+  padding-right: 22px;
+  border-radius: 5px;
+  box-shadow: 0 1rem 1rem 0 rgba(12, 75, 170, 0.1);
+  background-color: hsl(0, 0%, 100%);
+  border-top: solid 0.25rem rgba(234, 196, 7, 0.927);
+}
+main .container3 .karma {
+  display: flex;
+  flex-direction: column-reverse;
+  align-self: flex-end;
+  justify-self: flex-end;
+  padding-top: 40px;
+}
+main .container4 {
+  max-width: 320px;
+  max-height: 320px;
+  margin: 2px;
+  padding-top: 15px;
+  padding-bottom: 40px;
+  padding-left: 22px;
+  padding-right: 22px;
+  border-radius: 5px;
+  box-shadow: 0 1rem 1rem 0 rgba(12, 75, 170, 0.1);
+  background-color: hsl(0, 0%, 100%);
+  border-top: solid 0.25rem rgba(44, 139, 194, 0.753);
+}
+main .container4 .calculator {
+  display: flex;
+  flex-direction: column-reverse;
+  align-self: flex-end;
+  justify-self: flex-end;
+  padding-top: 40px;
 }
 
+@media (min-width: 1000px) {
+  p {
+    font-size: 0.95rem;
+  }
+  main {
+    display: grid;
+  }
+  .container1 {
+    grid-row: 1/3;
+  }
+  .container2 {
+    grid-row: 1/1;
+  }
+  .container3 {
+    grid-row: 2/2;
+  }
+  .container4 {
+    grid-row: 1/3;
+  }
+}
 .attribution {
   font-size: 11px;
   text-align: center;
