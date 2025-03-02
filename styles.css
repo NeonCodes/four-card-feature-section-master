@@ -209,6 +209,17 @@ main .container4 .calculator {
   p {
     font-size: 0.95rem;
   }
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 40px;
+    min-height: 20px;
+  }
+  header .description {
+    max-width: 550px;
+  }
   main {
     display: grid;
     justify-content: center;
