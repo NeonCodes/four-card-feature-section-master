@@ -25,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshotsolution.jpeg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/NeonCodes/four-card-feature-section-master)
+- Live Site URL: (https://four-card-feature-challengefem.netlify.app/)
 
 ## My process
 
@@ -55,7 +55,6 @@ Users should be able to:
 ### Useful resources
 
 - [ resource 1](https://www.freecodecamp.org/news/complete-guide-to-css-grid/) - This helped me get the basics of grid.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
